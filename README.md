@@ -1,0 +1,3 @@
+# React Native Deprecated setState Callback Bug
+
+This repository demonstrates a common bug in React Native applications related to the use of deprecated `setState` method with a callback function.  The outdated approach can lead to unpredictable behavior and race conditions due to stale closure issues. The solution provided leverages the functional update approach using `useState` hook (functional component) or a functional update with `setState` (class component) to rectify this issue.  See the example files for details on how to fix the issue.
